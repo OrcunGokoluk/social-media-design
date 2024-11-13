@@ -751,5 +751,13 @@ footer p
     {
         width: 100%;
     }
+    .pictures
+    {
+        flex-direction: column;
+    }
 
+        .pictures img
+    {
+        width: 100%;
+    }
 }
