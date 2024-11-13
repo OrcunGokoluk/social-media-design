@@ -48,6 +48,11 @@ article{
     gap:1rem
 
 }
+
+.hamburger-navbar
+{
+    display:none;
+}
 .menu-buttons li
 {
     list-style: none;
@@ -672,6 +677,46 @@ footer p
 }
 @media screen and (max-width: 768px)
 {
+
+    .hamburger-navbar
+    {
+        display:flex;
+    }
+
+    .hamburger
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;   
+    }
+    .hamburger li
+    {
+        list-style: none;
+    }
+    .hamburger li .home-logo a
+    {
+        padding: 3rem;
+        list-style: none;
+        color: white;
+        text-decoration: none;
+    }
+
+    .hamburger-navbar div a
+     {
+        display: flex;
+        color: white;
+        padding: 1rem;
+        font-size: 2rem;
+        text-decoration: none;
+    }
+
+    .hamburger li a
+    {
+        color: white;
+        font-size: larger;
+        padding: 3rem;
+    }
+
     .normal-menu
     {
         display: none;
