@@ -5,85 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    nav
-    {height: 100%;}
-    .menu-buttons
-    {
-        display: flex;
-        align-items: center;
-        height: 100%;
-    }
-    .menu-buttons li
-    {
-        list-style: none;
-        height: 100%;
-    }
-    .menu-buttons li p a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-decoration: none;
-    padding: 1.5rem;
-    height: 100%;
-}
-.menu-buttons li p a:hover, .profile-picture a:hover {
-    background-color: white;
-    color: black;
-}
-    .menu-buttons li p
-    {
-        font-weight: 2rem;
-    }
-
-    .home-logo  
-    {
-        display: flex;
-        align-items: center;
-        white-space:nowrap;
-    }
-
-    ul{
-        height: 100%;
-    }
-    nav
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color:#4D636F ;
-        height: 4rem;
-
-    }
-    .profile-picture
-    {
-        display: inline-block;
-    }
-    .profile-picture img {
-    width: 2rem; /* Resmi biraz küçülterek diğer ikonlara daha iyi uyum sağlayın */
-    height: auto;
-    border-radius: 50%;
-    }
-    .profile-picture a
-    {
-        display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-decoration: none;
-    height: 100%;
-        padding: 1.1rem;
-    }
-
-
-</style>
 <body>
     <header>
         <nav>
@@ -108,6 +31,36 @@
 
         </nav>
     </header>
+
+    <main>
+        
+        <div class="container">
+
+
+            <section class="profile-description">
+                <div class="pp">
+                    <h2>My Profile</h2>
+                    <img src="./images/avatar3.png" alt="">
+                    <hr>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+    
+            <section class="posts">
+    
+            </section>
+    
+            <section class="events-and-requests">
+                
+            </section>
+
+
+        </div>
+        
+
+    </main>
 
 </body>
 </html>

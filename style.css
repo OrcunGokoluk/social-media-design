@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav
+{height: 100%;}
+.menu-buttons
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+body
+{
+    background-color: #F5F7F8;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    margin-top: 3rem;
+    width:3000px;
+    gap:1rem
+
+}
+.menu-buttons li
+{
+    list-style: none;
+    height: 100%;
+}
+.menu-buttons li p a{
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+text-decoration: none;
+padding: 1.5rem;
+height: 100%;
+}
+.menu-buttons li p a:hover, .profile-picture a:hover {
+background-color: white;
+color: black;
+}
+.menu-buttons li p
+{
+    font-weight: 2rem;
+}
+.menu-buttons
+.home-logo  
+{
+    display: flex;
+    align-items: center;
+    white-space:nowrap;
+}
+
+ul{
+    height: 100%;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#4D636F ;
+    height: 4rem;
+
+}
+.profile-picture
+{
+    display: inline-block;
+}
+.profile-picture img {
+width: 2rem; /* Resmi biraz küçülterek diğer ikonlara daha iyi uyum sağlayın */
+height: auto;
+border-radius: 50%;
+}
+.profile-picture a
+{
+    display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+text-decoration: none;
+height: 100%;
+    padding: 1.1rem;
+}
+
+/* Left side */
+
+.profile-description
+{
+    width: 25%;
+    margin-left:1rem;
+    background-color: white;
+}
+.pp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+.pp h2
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pp img{
+    width: 7rem;
+    border-radius: 50%;
+
+}
+.pp hr{
+    margin-top: 2rem;
+    border:solid 1px #d1d1d1;
+    width: 100%;
+}
+
+.posts
+{
+    width:30%;
+    background-color: white;
+}
+
+@media screen and (max-width: 767px)
+{
+
+}
