@@ -29,6 +29,7 @@ section {
     background-color: #ffffff;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.323);  /* X, Y, Blur, Renk */
     border-radius: 5px;
+    margin-top: 1rem;
 }
 article{
     background-color: #F5F7F8;
@@ -61,6 +62,33 @@ height: 100%;
 .menu-buttons li p a:hover, .profile-picture a:hover {
 background-color: white;
 color: black;
+}
+.menu-buttons li:nth-child(1) p a:hover
+{
+    background-color: #CCCCCC;
+}
+.menu-buttons li:nth-child(5) p a:hover
+{
+    background-color: #CCCCCC;
+}
+.bell
+{
+    position:relative;
+}
+.bell span
+{
+    font-size: smaller;
+    display: flex;
+    padding: 0.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    position:absolute;
+    top:1rem;
+    left:2.2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #4CAF50;
+    border-radius: 50%;
 }
 .menu-buttons li p
 {
@@ -215,9 +243,11 @@ li a span
 .interests
 {
     padding: 1rem;
+    font-size: small;
 }
 .interests h3
 {
+    font-weight: 400;
     margin-bottom: 1rem;
 }
 
@@ -296,6 +326,48 @@ li a span
     color: black;
 }
 
+/* Info */
+.info
+{
+    margin-bottom: 1rem;
+}
+.info div h3
+{
+    display: inline-block;
+    padding: 1rem;
+}
+.info div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#DFE5E8;
+}
+
+
+
+.sign-x a
+{
+    padding:0.7rem;
+    height: 2.5rem;
+    background-color: #BECBD2;
+    border-radius: 5px;
+    color: black;
+}
+
+.sign-x a:hover
+{
+    padding:0.7rem;
+    height: 2.5rem;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+    color: black;
+}
+.info p
+{
+    background-color: #DFE5E8;
+    padding: 0 0.7rem 1rem 1rem;
+}
 
 
 .posts
@@ -303,6 +375,8 @@ li a span
     width:30%;
     background-color: white;
 }
+
+
 
 @media screen and (max-width: 767px)
 {
