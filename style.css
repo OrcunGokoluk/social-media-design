@@ -24,6 +24,11 @@ main{
     justify-content: center;
     
 }
+header
+{
+    width:100%;
+    position: fixed;
+}
 
 section {
     background-color: #ffffff;
@@ -39,8 +44,8 @@ article{
     background-color: #F5F7F8;
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
-    width:3000px;
+    margin-top: 5rem;
+    width:2000px;
     gap:1rem
 
 }
@@ -637,6 +642,34 @@ hr{
     color: black;
     text-decoration: none;
     font-size:2rem;
+}
+
+footer
+{
+    margin-top: 2rem;
+}
+
+footer div:nth-child(1)
+{
+    background-color: #435761;
+    color:white;
+}
+footer div:nth-child(2)
+{
+    background-color: #303E45;
+    color:white;
+}
+footer div:nth-child(2) p
+{
+    padding: 1rem;
+    padding-left:2rem;
+    font-size: 1rem;
+}
+footer p
+{
+    padding: 1.5rem;
+    padding-left:2rem;
+    font-size: 1.5rem;
 }
 @media screen and (max-width: 767px)
 {
