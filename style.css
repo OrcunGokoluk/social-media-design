@@ -373,7 +373,6 @@ hr{
 /* Posts */
 .posts
 {
-
     width:55%;
 }
 
@@ -530,6 +529,64 @@ hr{
 {
     display: flex;
     width: 100%;
+}
+
+
+/* events and requests */
+
+
+.events-and-requests
+{
+    width: 19%;
+}
+.event-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding:1.5rem;
+}
+.event-info img
+{
+    width: 100%;
+}
+.event-info p
+{  
+    display:block;
+    margin-bottom:1rem;
+}
+.event-info h3{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.events-and-requests .event-info a
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 1rem;
+    background-color: #DFE5E8;
+    padding:0.5rem;
+    width: 100%;
+    color:black ;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.events-and-requests .event-info a:hover
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 1rem;
+    background-color: #CCCCCC;
+    width: 100%;
+    color:black ;
+    text-decoration: none;
+    font-size: larger;
 }
 
 @media screen and (max-width: 767px)
