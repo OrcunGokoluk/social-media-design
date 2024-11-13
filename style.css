@@ -12,6 +12,14 @@
     align-items: center;
     height: 100%;
 }
+
+.personel-info li p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
 body
 {
     background-color: #F5F7F8;
@@ -553,6 +561,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
     
     padding:1.5rem;
 }
