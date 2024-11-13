@@ -40,7 +40,7 @@ article{
     display: flex;
     flex-direction: row;
     border: 1px solid;
-    margin-top: 2rem;
+    margin-top: 1rem;
     width:3000px;
     gap:1rem
 
@@ -234,10 +234,11 @@ hr{
     width: 100%;
     padding: 1rem;
 }
-li a span
+.my-events ul li span
 {
-    padding-left: 1rem;
+    margin-left: 1rem;
 }
+
 /* Interests */
 
 .interests
@@ -375,6 +376,10 @@ li a span
 
     width:55%;
 }
+
+.posts hr{
+    margin-top: 2rem;
+}
 .post-this
 {
     display: flex;
@@ -401,11 +406,19 @@ li a span
     padding: 0.5rem 3rem;
     background-color: #607D8B;
     color: white;
-    width: 10%;
+    max-width: 15%;
     white-space: nowrap;
     text-decoration: none;
     font-size: medium;
 }
+
+.post-button p a:hover
+{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+
 .post-this p
 {
     color: rgb(111, 111, 111);
@@ -450,6 +463,74 @@ li a span
 {
     color: rgb(186, 186, 186);;
 }
+.post-content p
+{
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+.button-box
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.button-list
+{
+    display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+    list-style: none;
+}
+
+.like-button
+{
+    background-color: #607D8B;
+}
+.like-button a{
+    display: block;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+.like-button a:hover
+{
+    background-color: #CCCCCC;
+    color: black;
+}
+.comment-button
+{
+    background-color: #607D8B;
+}
+.comment-button a{
+    margin-left: rem;
+    display: block;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+.comment-button a:hover
+{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.pictures
+{
+    display: flex;
+    gap:1rem
+}
+.pictures img
+{
+    width: 49%;
+}
+
+.one-picture img
+{
+    display: flex;
+    width: 100%;
+}
 
 @media screen and (max-width: 767px)
 {
@@ -463,5 +544,10 @@ li a span
     {
         width: 100%;
         margin-right: 1rem;
+    }
+        .posts
+    {
+
+        width:100%;
     }
 }
