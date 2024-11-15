@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Host Grotesk", sans-serif;
 }
+
 .menu-buttons
 {
     display: flex;
@@ -15,11 +16,9 @@
 
 .personel-info li p
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     white-space: nowrap;
 }
+
 body
 {
     background-color: #F5F7F8;
@@ -27,10 +26,9 @@ body
 
 main{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    
 }
+
 header
 {
     width:100%;
@@ -43,54 +41,59 @@ section {
     border-radius: 5px;
     margin-top: 1rem;
 }
+
 article{
     background-color: #F5F7F8;
 }
+
 .container
 {
-    background-color: #F5F7F8;
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
     width:2000px;
     gap:1rem
-
 }
 
 .hamburger-navbar
 {
     display:none;
 }
-.menu-buttons li
+
+.menu-buttons
 {
     list-style: none;
-    height: 100%;
 }
-.menu-buttons li p a{
+
+.menu-buttons a{
 display: flex;
 align-items: center;
 justify-content: center;
 color: white;
 text-decoration: none;
 padding: 1.5rem;
-height: 100%;
 }
-.menu-buttons li p a:hover, .profile-picture a:hover {
+
+.menu-buttons a:hover, .profile-picture a:hover {
 background-color: white;
 color: black;
 }
+
 .menu-buttons li:nth-child(1) p a:hover
 {
     background-color: #CCCCCC;
 }
+
 .menu-buttons li:nth-child(5) p a:hover
 {
     background-color: #CCCCCC;
 }
+
 .bell
 {
     position:relative;
 }
+
 .bell span
 {
     font-size: smaller;
@@ -106,10 +109,12 @@ color: black;
     background-color: #4CAF50;
     border-radius: 50%;
 }
+
 .menu-buttons li p
 {
     font-weight: 2rem;
 }
+
 .home-logo  
 {
     font-size: large;
@@ -120,54 +125,50 @@ color: black;
  
 }
 
-
-ul{
-    height: 100%;
-}
 nav
 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color:#4D636F ;
     height: 4rem;
     overflow: hidden;
+}
 
-}
-.profile-picture
-{
-    display: inline-block;
-}
 .profile-picture img {
 width: 2rem; /* Resmi biraz küçülterek diğer ikonlara daha iyi uyum sağlayın */
 height: auto;
 border-radius: 50%;
 }
+
 .profile-picture a
 {
     display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-text-decoration: none;
-height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    height: 100%;
     padding: 1.1rem;
 }
 
+
 /* Left side */
+
 
 .profile-general
 {
     padding: 1rem;
 }
+
 .profile-description
 {
     display: flex;
     flex-direction: column;
-    gap:1rem;
+    gap:0.5rem;
     width: 24%;
     margin-left: 1rem;
 }
+
 .pp{
     display: flex;
     flex-direction: column;
@@ -177,24 +178,23 @@ height: 100%;
 
 .pp h2
 {
-
     margin-bottom: 1rem;
 }
 
 .pp img{
     width: 7rem;
     border-radius: 50%;
-
 }
+
 hr{
     border:solid 1px #d1d1d1;
 }
+
 .pp hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
 }
-
 .personel-info
 {
     display: flex;
@@ -205,35 +205,26 @@ hr{
     list-style: none;
     margin-right: 1rem;
 }
-.personel-info li i
+
+.personel-info i
 {
     color:#607D8F;
     font-size: small;
 }
-.pp ul li p
-{
-    display: flex;
-    align-items: center;
-   white-space:nowrap;
-}
-.pp ul li p p{
-    
-    margin-left:1rem;
-}
+
 .personel-info span{
     margin-left: 1rem;
 }
 
+
 /* Events */
 
-.my-events
-{
-    background-color: white;
-}
+
 .my-events ul
 {
     list-style: none;
 }
+
 .my-events ul li a{
     display: block;
     color: white;
@@ -244,12 +235,10 @@ hr{
 }
 
 .my-events ul li a:hover{
-    display: block;
     color: black;
     background-color: #CCCCCC;
-    width: 100%;
-    padding: 1rem;
 }
+
 .my-events ul li span
 {
     margin-left: 1rem;
@@ -262,9 +251,10 @@ hr{
     padding: 1rem;
     font-size: small;
 }
+
 .interests h3
 {
-    font-weight: 400;
+    font-weight: 200;
     margin-bottom: 1rem;
 }
 
@@ -311,19 +301,22 @@ hr{
     background-color: #57707D;
     color: white;
 }
+
 .box-group div:nth-child(6)
 {
     background-color: #607D8B;
     color: white;
 }
+
 .box-group div:nth-child(7)
 {
     background-color: #7D97A5;
     color: white;
 }
+
 .box-group div:nth-child(8)
 {
-    background-color: #9EB1BB;
+    background-color: #b4c0c8;
     color: black;
 }
 
@@ -332,11 +325,13 @@ hr{
     background-color: #BECBD2;
     color: black;
 }
+
 .box-group div:nth-child(10)
 {
     background-color: #DFE5E8;
     color: black;
 }
+
 .box-group div:nth-child(11)
 {
     background-color: #F5F7F8;
@@ -348,11 +343,12 @@ hr{
 {
     margin-bottom: 1rem;
 }
+
 .info div h3
 {
-    display: inline-block;
     padding: 1rem;
 }
+
 .info div
 {
     display: flex;
@@ -360,8 +356,6 @@ hr{
     justify-content: space-between;
     background-color:#DFE5E8;
 }
-
-
 
 .sign-x a
 {
@@ -380,13 +374,17 @@ hr{
     border-radius: 5px;
     color: black;
 }
+
 .info p
 {
     background-color: #DFE5E8;
     padding: 0 0.7rem 1rem 1rem;
 }
 
+
 /* Posts */
+
+
 .posts
 {
     width:55%;
@@ -395,6 +393,7 @@ hr{
 .posts hr{
     margin-top: 2rem;
 }
+
 .post-this
 {
     display: flex;
@@ -412,7 +411,7 @@ hr{
     border-radius: 5px;
 }
 
-.post-button p a
+.post-button a
 {
     margin-top:1rem ;
     display: flex;
@@ -427,36 +426,43 @@ hr{
     font-size: medium;
 }
 
-.post-button p a:hover
+.post-button a:hover
 {
     background-color: #CCCCCC;
     color: black;
 }
 
-
 .post-this p
 {
     color: rgb(111, 111, 111);
 }
+
 .post-text
 {
     margin-bottom: 1rem;
 }
-.post-button p a span
+
+.post-button span
 {
     margin-left: 0.5rem;
 }
+
+
 /* User-Post */
+
+
 .user-posts
 {
     padding: 1rem;
 }
+
 .user-post
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .global-user-profile
 {
     display: flex;
@@ -464,20 +470,24 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
 .global-user-profile p
 {
     font-size: 1.5rem;
     margin-left: 1rem;
 }
+
 .global-user-profile img
 {
     border-radius: 50%;
     width: 5rem;
 }
+
 .post-date
 {
     color: rgb(186, 186, 186);;
 }
+
 .post-content p
 {
  margin-top: 1rem;
@@ -503,21 +513,25 @@ hr{
 {
     background-color: #607D8B;
 }
+
 .like-button a{
     display: block;
     padding: 0.5rem;
     color: white;
     text-decoration: none;
 }
+
 .like-button a:hover
 {
     background-color: #CCCCCC;
     color: black;
 }
+
 .comment-button
 {
     background-color: #607D8B;
 }
+
 .comment-button a{
     margin-left: rem;
     display: block;
@@ -525,6 +539,7 @@ hr{
     color: white;
     text-decoration: none;
 }
+
 .comment-button a:hover
 {
     background-color: #CCCCCC;
@@ -536,6 +551,7 @@ hr{
     display: flex;
     gap:1rem
 }
+
 .pictures img
 {
     width: 49%;
@@ -543,7 +559,6 @@ hr{
 
 .one-picture img
 {
-    display: flex;
     width: 100%;
 }
 
@@ -555,6 +570,7 @@ hr{
 {
     width: 19%;
 }
+
 .event-info
 {
     display: flex;
@@ -565,15 +581,18 @@ hr{
     
     padding:1.5rem;
 }
+
 .event-info img
 {
     width: 100%;
 }
+
 .event-info p
 {  
     display:block;
     margin-bottom:1rem;
 }
+
 .event-info h3{
     margin-top:1rem;
     margin-bottom: 1rem;
@@ -610,11 +629,13 @@ hr{
 {
     width: 50% !important;
 }
+
 .choice-buttons
 {
     display: flex;
     width: 100%;
 }
+
 .choice-buttons a:nth-child(1)
 {
     background-color: #94CF96 !important;
@@ -646,6 +667,7 @@ hr{
     color: black;
     text-decoration: none;
 }
+
 .bug a
 {
     display: flex;
@@ -667,23 +689,27 @@ footer div:nth-child(1)
     background-color: #435761;
     color:white;
 }
+
 footer div:nth-child(2)
 {
     background-color: #303E45;
     color:white;
 }
+
 footer div:nth-child(2) p
 {
     padding: 1rem;
     padding-left:2rem;
     font-size: 1rem;
 }
+
 footer p
 {
     padding: 1.5rem;
     padding-left:2rem;
     font-size: 1.5rem;
 }
+
 @media screen and (max-width: 768px)
 {
 
@@ -698,10 +724,12 @@ footer p
         flex-direction: row;
         align-items: center;   
     }
+
     .hamburger li
     {
         list-style: none;
     }
+
     .hamburger li .home-logo a
     {
         padding: 3rem;
@@ -711,7 +739,7 @@ footer p
     }
 
     .hamburger-navbar div a
-     {
+    {
         display: flex;
         color: white;
         padding: 1rem;
@@ -730,20 +758,22 @@ footer p
     {
         display: none;
     }
+
     .container
     {
         display: flex;
         flex-direction: column;
         padding-right: 1rem;
     }
+
     .profile-description
     {
         width: 100%;
         margin-right: 1rem;
     }
-        .posts
-    {
 
+    .posts
+    {
         width:100%;
     }
 
@@ -751,12 +781,13 @@ footer p
     {
         width: 100%;
     }
+
     .pictures
     {
         flex-direction: column;
     }
 
-        .pictures img
+    .pictures img
     {
         width: 100%;
     }
